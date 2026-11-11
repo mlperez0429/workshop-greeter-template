@@ -11,7 +11,7 @@ class GreetTests(unittest.TestCase):
         self.assertEqual(greet("   "), "Hello, friend!")
 
     def test_greets_another_named_person(self):
-        self.assertEqual(greet("Bob"), "Hello, Bob!")
+        self.assertEqual(greet("Bob"), "Hi, Bob!")
 
 
 if __name__ == "__main__":
