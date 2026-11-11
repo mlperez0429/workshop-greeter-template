@@ -10,6 +10,9 @@ class GreetTests(unittest.TestCase):
     def test_uses_a_friendly_fallback_for_blank_input(self):
         self.assertEqual(greet("   "), "Hello, friend!")
 
+    def test_greets_another_named_person(self):
+        self.assertEqual(greet("Bob"), "Hello, Bob!")
+
 
 if __name__ == "__main__":
     unittest.main()
